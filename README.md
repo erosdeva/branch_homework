@@ -1,5 +1,15 @@
 # Branch Homework
 
+## Installation
+
+```
+mkdir -p ./venv && \
+>   virtualenv --python python3 ./venv && \
+>   . venv/bin/activate && \
+>   pip install --requirement requirements.txt && \
+>   pip install --requirement dev_requirements.txt
+```
+
 ## Part 1: DB Diagrams
 
 DB diagrams can be found under /app/results
@@ -12,7 +22,7 @@ The precise link to the DB diagrams page can be found in https://dbdiagram.io/d/
 To generate the CSV you must run the main file from the root directory
 
 ```bash
-./main.py
+sudo python main.py
 ```
 
 Afterwards you will find the CSV results in the /app/results directory
